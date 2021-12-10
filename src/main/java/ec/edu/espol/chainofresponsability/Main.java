@@ -5,6 +5,8 @@
  */
 package ec.edu.espol.chainofresponsability;
 
+import ec.edu.espol.iterator.IterableProductos;
+
 /**
  *
  * @author davidperez
@@ -15,7 +17,10 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        IterableProductos p = new IterableComprador();
+        
+        
+        
     }
     
 }
